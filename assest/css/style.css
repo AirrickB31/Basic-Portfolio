@@ -3,7 +3,6 @@
     box-sizing: border-box;
 }
 a {
-
     text-decoration: none;
     color: inherit;
 }
@@ -31,9 +30,7 @@ footer {
     position: fixed;
     bottom:0px;
 }
-h1, h2, h3 {
-    font-family: 'Georgia', Times, serif;
-}
+
 h1 {
     font-size: 25px;
     border-bottom: 3px solid #ddd;
@@ -51,6 +48,9 @@ h6 {
     font-size: 20px;
     font-weight: 100;
     margin-bottom: 5px;
+}
+h1, h2, h3 {
+    font-family: 'Georgia', Times, serif;
 }
 
 .logo{
@@ -155,11 +155,11 @@ input[type=submit] {
     cursor: pointer;
 }
 #name, #email, #message {
-    color: #4aaaa5;
+    color: black;
 }
 
 textarea {
-    min-height: 200px;
+    min-height: 250px;
 }
 form {
     margin-top: 20px;
