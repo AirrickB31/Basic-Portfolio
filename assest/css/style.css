@@ -2,20 +2,33 @@
     
     box-sizing: border-box;
 }
+
+  
 a {
     text-decoration: none;
     color: inherit;
 }
 
 body {
-    background-color: #cccccc;
-    border-color: #ffffff;
+    /* background-image: url("../images/fergri.png"); */
+    /* background-color: #cccccc; */
+  
+        background: url("../images/fergie.png")  no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+      
     font-family: Arial, Helvetica, sans-serif;
 }
 header {
     height: 67px;
-    background-color: #fff;
-    border-bottom: 2px solid #cccc;
+    background-image: url("../images/fergie1.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
     
 }
 footer {
@@ -54,7 +67,12 @@ h1, h2, h3 {
 }
 
 .logo{
-    background-color: #4aaaa5;
+    background-image: url("../images/fergie1.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  
     padding: 20px;
     float: left;
     margin-left: 470px;
@@ -76,6 +94,7 @@ h1, h2, h3 {
     float:right;
     width: 270px;
     margin-right: 470px;
+    
 }
 
 .fa {
@@ -101,8 +120,13 @@ h1, h2, h3 {
     padding:40px 20px;
     margin-top:40px;
     margin-bottom:40px;
-    border: 1px solid #ddd;
-    background-color: #fff;
+    
+    background-image: url("../images/fergie1.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  
 }
  img{
     width: 33.3%;
@@ -192,19 +216,44 @@ label {
     padding: 20px 0;
 }
 .hangman {
-    background-image:url("../images/1.jpg");
+    background-image: url("../images/fergie1.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
+  
 .rpg {
-    background-image:url("../images/hangman.jpg");
+    background-image: url("../images/fergie1.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  
 }
 .trivia {
-    background-image:url("../images/trivia.png");
+    background-image: url("../images/fergie1.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  
 }
 .rutgers {
-    background-image:url("../images/3.jpg");
+    background-image: url("../images/fergie1.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  
 }
 .rockpaper {
-    background-image:url("../images/5.jpg");
+    background-image: url("../images/fergie1.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  
 }
 #sidebar img {
     margin-top: 30px;
@@ -213,3 +262,4 @@ label {
 #sidebar img:hover {
     border: 2px solid #fff;
 }
+
