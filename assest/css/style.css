@@ -135,24 +135,25 @@ nav {
     min-height: 1040px;
 }
 input[type=text], textarea {
+    display: inline-block;
+    border: 1px solid #ddd;
     font-size: 15px;
     width: 100%;
     padding: 10px 12px;
     margin: 10px 0 15px;
-    display: inline-block;
-    border: 1px solid #ddd;
     box-sizing: border-box;
+    
 }
 
 input[type=submit] {
-    font-size: 17px;
-    width: 20%;
-    background-color: #4aaaa5;
-    color: white;
     padding: 1px 20px;
     margin: 8px 0;
     border: none;
     cursor: pointer;
+    font-size: 17px;
+    width: 20%;
+    background-color: #4aaaa5;
+    color: white;
 }
 #name, #email, #message {
     color: black;
@@ -171,11 +172,11 @@ label {
 .uid1 {
     padding-top:150px;
     text-align: center;
+    background-position: center;
+    background-size: cover;
     width: 48%;
     height: 220px;
     margin-top: 30px;
-    background-position: center;
-    background-size: cover;
 }
 .uid2 {
     float: left;
